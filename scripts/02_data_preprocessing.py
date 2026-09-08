@@ -1,9 +1,8 @@
-from sklearn.datasets import load_breast_cancer
-from sklearn.model_selection import train_test_split
-import mlflow
-import pandas as pd
 from pathlib import Path
 
+import mlflow
+from sklearn.datasets import load_breast_cancer
+from sklearn.model_selection import train_test_split
 
 # Load dataset
 d = load_breast_cancer(as_frame=True)

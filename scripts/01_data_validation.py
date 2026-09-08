@@ -1,5 +1,4 @@
 from sklearn.datasets import load_breast_cancer
-import pandas as pd
 
 # Load dataset
 d = load_breast_cancer(as_frame=True)

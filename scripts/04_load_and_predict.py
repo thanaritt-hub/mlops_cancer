@@ -1,8 +1,6 @@
 import mlflow
 import mlflow.sklearn
-
 from sklearn.datasets import load_breast_cancer
-
 
 # MLflow Tracking URI
 mlflow.set_tracking_uri(
